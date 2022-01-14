@@ -1,0 +1,49 @@
+﻿@model InputOutputViewModel
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="row">
+    <div class="col-sm-12 col-md-5">
+        <div class="input-output-card">
+            
+            @if (TempData["FileNotSelected"] != null)
+            {
+                <p class="alert alert-danger">@TempData["FileNotSelected"]</p>
+            }
+
+            @if (Model.Commands != null)
+            {
+                <div class="input-output-card-header">
+                    <h3>Input File</h3>
+                </div>
+                <div class="input-output-card-content">
+                    @foreach (var item in Model.Commands)
+                    {
+                        <p>@item</p>
+                    }
+                </div>
+            }
+        </div>
+    </div>
+
+    <div class="col-sm-12 col-md-7">
+        <div class="input-output-card">
+            @if (Model.Outputs != null)
+            {
+                <div class="input-output-card-header">
+                    <h3>Output</h3>
+                </div>
+                <div class="input-output-card-content">
+                    @foreach (var output in Model.Outputs)
+                    {
+                        <h6>@output.Command</h6>
+                        <p class="p-output">@output.Output</p>
+                        <br />
+                    }
+                </div>
+            }
+        </div>
+    </div>
+</div>
+

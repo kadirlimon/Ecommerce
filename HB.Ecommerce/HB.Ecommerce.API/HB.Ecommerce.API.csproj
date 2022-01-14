@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.22" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="3.1.22" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HB.Ecommerce.Application.Contracts\HB.Ecommerce.Application.Contracts.csproj" />
+    <ProjectReference Include="..\HB.Ecommerce.Application\HB.Ecommerce.Application.csproj" />
+    <ProjectReference Include="..\HB.Ecommerce.Infrastructure\HB.Ecommerce.Infrastructure.csproj" />
+  </ItemGroup>
+
+
+</Project>

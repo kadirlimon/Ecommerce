@@ -1,0 +1,352 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\klimon\\Desktop\\Kadir Test\\Kadir Project\\HB.Ecommerce\\HB.Ecommerce\\HB.Ecommerce.API\\HB.Ecommerce.API.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\klimon\\Desktop\\Kadir Test\\Kadir Project\\HB.Ecommerce\\HB.Ecommerce\\HB.Ecommerce.API\\HB.Ecommerce.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\klimon\\Desktop\\Kadir Test\\Kadir Project\\HB.Ecommerce\\HB.Ecommerce\\HB.Ecommerce.API\\HB.Ecommerce.API.csproj",
+        "projectName": "HB.Ecommerce.API",
+        "projectPath": "C:\\Users\\klimon\\Desktop\\Kadir Test\\Kadir Project\\HB.Ecommerce\\HB.Ecommerce\\HB.Ecommerce.API\\HB.Ecommerce.API.csproj",
+        "packagesPath": "C:\\Users\\klimon\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\klimon\\Desktop\\Kadir Test\\Kadir Project\\HB.Ecommerce\\HB.Ecommerce\\HB.Ecommerce.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\klimon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://ftateamcity.innova.com.tr/guestAuth/app/nuget/v1/FeedService.svc": {},
+          "http://ftateamcity.innova.com.tr:82/api/v2": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\klimon\\Desktop\\Kadir Test\\Kadir Project\\HB.Ecommerce\\HB.Ecommerce\\HB.Ecommerce.Application.Contracts\\HB.Ecommerce.Application.Contracts.csproj": {
+                "projectPath": "C:\\Users\\klimon\\Desktop\\Kadir Test\\Kadir Project\\HB.Ecommerce\\HB.Ecommerce\\HB.Ecommerce.Application.Contracts\\HB.Ecommerce.Application.Contracts.csproj"
+              },
+              "C:\\Users\\klimon\\Desktop\\Kadir Test\\Kadir Project\\HB.Ecommerce\\HB.Ecommerce\\HB.Ecommerce.Application\\HB.Ecommerce.Application.csproj": {
+                "projectPath": "C:\\Users\\klimon\\Desktop\\Kadir Test\\Kadir Project\\HB.Ecommerce\\HB.Ecommerce\\HB.Ecommerce.Application\\HB.Ecommerce.Application.csproj"
+              },
+              "C:\\Users\\klimon\\Desktop\\Kadir Test\\Kadir Project\\HB.Ecommerce\\HB.Ecommerce\\HB.Ecommerce.Infrastructure\\HB.Ecommerce.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\klimon\\Desktop\\Kadir Test\\Kadir Project\\HB.Ecommerce\\HB.Ecommerce\\HB.Ecommerce.Infrastructure\\HB.Ecommerce.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.22, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[3.1.22, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\klimon\\Desktop\\Kadir Test\\Kadir Project\\HB.Ecommerce\\HB.Ecommerce\\HB.Ecommerce.Application.Contracts\\HB.Ecommerce.Application.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\klimon\\Desktop\\Kadir Test\\Kadir Project\\HB.Ecommerce\\HB.Ecommerce\\HB.Ecommerce.Application.Contracts\\HB.Ecommerce.Application.Contracts.csproj",
+        "projectName": "HB.Ecommerce.Application.Contracts",
+        "projectPath": "C:\\Users\\klimon\\Desktop\\Kadir Test\\Kadir Project\\HB.Ecommerce\\HB.Ecommerce\\HB.Ecommerce.Application.Contracts\\HB.Ecommerce.Application.Contracts.csproj",
+        "packagesPath": "C:\\Users\\klimon\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\klimon\\Desktop\\Kadir Test\\Kadir Project\\HB.Ecommerce\\HB.Ecommerce\\HB.Ecommerce.Application.Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\klimon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://ftateamcity.innova.com.tr/guestAuth/app/nuget/v1/FeedService.svc": {},
+          "http://ftateamcity.innova.com.tr:82/api/v2": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\klimon\\Desktop\\Kadir Test\\Kadir Project\\HB.Ecommerce\\HB.Ecommerce\\HB.Ecommerce.Infrastructure\\HB.Ecommerce.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\klimon\\Desktop\\Kadir Test\\Kadir Project\\HB.Ecommerce\\HB.Ecommerce\\HB.Ecommerce.Infrastructure\\HB.Ecommerce.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\klimon\\Desktop\\Kadir Test\\Kadir Project\\HB.Ecommerce\\HB.Ecommerce\\HB.Ecommerce.Application\\HB.Ecommerce.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\klimon\\Desktop\\Kadir Test\\Kadir Project\\HB.Ecommerce\\HB.Ecommerce\\HB.Ecommerce.Application\\HB.Ecommerce.Application.csproj",
+        "projectName": "HB.Ecommerce.Application",
+        "projectPath": "C:\\Users\\klimon\\Desktop\\Kadir Test\\Kadir Project\\HB.Ecommerce\\HB.Ecommerce\\HB.Ecommerce.Application\\HB.Ecommerce.Application.csproj",
+        "packagesPath": "C:\\Users\\klimon\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\klimon\\Desktop\\Kadir Test\\Kadir Project\\HB.Ecommerce\\HB.Ecommerce\\HB.Ecommerce.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\klimon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://ftateamcity.innova.com.tr/guestAuth/app/nuget/v1/FeedService.svc": {},
+          "http://ftateamcity.innova.com.tr:82/api/v2": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\klimon\\Desktop\\Kadir Test\\Kadir Project\\HB.Ecommerce\\HB.Ecommerce\\HB.Ecommerce.Application.Contracts\\HB.Ecommerce.Application.Contracts.csproj": {
+                "projectPath": "C:\\Users\\klimon\\Desktop\\Kadir Test\\Kadir Project\\HB.Ecommerce\\HB.Ecommerce\\HB.Ecommerce.Application.Contracts\\HB.Ecommerce.Application.Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\klimon\\Desktop\\Kadir Test\\Kadir Project\\HB.Ecommerce\\HB.Ecommerce\\HB.Ecommerce.Domain\\HB.Ecommerce.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\klimon\\Desktop\\Kadir Test\\Kadir Project\\HB.Ecommerce\\HB.Ecommerce\\HB.Ecommerce.Domain\\HB.Ecommerce.Domain.csproj",
+        "projectName": "HB.Ecommerce.Domain",
+        "projectPath": "C:\\Users\\klimon\\Desktop\\Kadir Test\\Kadir Project\\HB.Ecommerce\\HB.Ecommerce\\HB.Ecommerce.Domain\\HB.Ecommerce.Domain.csproj",
+        "packagesPath": "C:\\Users\\klimon\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\klimon\\Desktop\\Kadir Test\\Kadir Project\\HB.Ecommerce\\HB.Ecommerce\\HB.Ecommerce.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\klimon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://ftateamcity.innova.com.tr/guestAuth/app/nuget/v1/FeedService.svc": {},
+          "http://ftateamcity.innova.com.tr:82/api/v2": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\klimon\\Desktop\\Kadir Test\\Kadir Project\\HB.Ecommerce\\HB.Ecommerce\\HB.Ecommerce.Infrastructure\\HB.Ecommerce.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\klimon\\Desktop\\Kadir Test\\Kadir Project\\HB.Ecommerce\\HB.Ecommerce\\HB.Ecommerce.Infrastructure\\HB.Ecommerce.Infrastructure.csproj",
+        "projectName": "HB.Ecommerce.Infrastructure",
+        "projectPath": "C:\\Users\\klimon\\Desktop\\Kadir Test\\Kadir Project\\HB.Ecommerce\\HB.Ecommerce\\HB.Ecommerce.Infrastructure\\HB.Ecommerce.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\klimon\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\klimon\\Desktop\\Kadir Test\\Kadir Project\\HB.Ecommerce\\HB.Ecommerce\\HB.Ecommerce.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\klimon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://ftateamcity.innova.com.tr/guestAuth/app/nuget/v1/FeedService.svc": {},
+          "http://ftateamcity.innova.com.tr:82/api/v2": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\klimon\\Desktop\\Kadir Test\\Kadir Project\\HB.Ecommerce\\HB.Ecommerce\\HB.Ecommerce.Domain\\HB.Ecommerce.Domain.csproj": {
+                "projectPath": "C:\\Users\\klimon\\Desktop\\Kadir Test\\Kadir Project\\HB.Ecommerce\\HB.Ecommerce\\HB.Ecommerce.Domain\\HB.Ecommerce.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.22, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[3.1.22, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

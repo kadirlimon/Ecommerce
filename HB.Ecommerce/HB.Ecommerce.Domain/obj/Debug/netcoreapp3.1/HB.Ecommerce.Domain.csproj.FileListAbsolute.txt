@@ -1,0 +1,8 @@
+C:\Users\klimon\Desktop\Kadir Test\Kadir Project\HB.Ecommerce\HB.Ecommerce\HB.Ecommerce.Domain\bin\Debug\netcoreapp3.1\HB.Ecommerce.Domain.deps.json
+C:\Users\klimon\Desktop\Kadir Test\Kadir Project\HB.Ecommerce\HB.Ecommerce\HB.Ecommerce.Domain\bin\Debug\netcoreapp3.1\HB.Ecommerce.Domain.dll
+C:\Users\klimon\Desktop\Kadir Test\Kadir Project\HB.Ecommerce\HB.Ecommerce\HB.Ecommerce.Domain\bin\Debug\netcoreapp3.1\HB.Ecommerce.Domain.pdb
+C:\Users\klimon\Desktop\Kadir Test\Kadir Project\HB.Ecommerce\HB.Ecommerce\HB.Ecommerce.Domain\obj\Debug\netcoreapp3.1\HB.Ecommerce.Domain.AssemblyInfoInputs.cache
+C:\Users\klimon\Desktop\Kadir Test\Kadir Project\HB.Ecommerce\HB.Ecommerce\HB.Ecommerce.Domain\obj\Debug\netcoreapp3.1\HB.Ecommerce.Domain.AssemblyInfo.cs
+C:\Users\klimon\Desktop\Kadir Test\Kadir Project\HB.Ecommerce\HB.Ecommerce\HB.Ecommerce.Domain\obj\Debug\netcoreapp3.1\HB.Ecommerce.Domain.csproj.CoreCompileInputs.cache
+C:\Users\klimon\Desktop\Kadir Test\Kadir Project\HB.Ecommerce\HB.Ecommerce\HB.Ecommerce.Domain\obj\Debug\netcoreapp3.1\HB.Ecommerce.Domain.dll
+C:\Users\klimon\Desktop\Kadir Test\Kadir Project\HB.Ecommerce\HB.Ecommerce\HB.Ecommerce.Domain\obj\Debug\netcoreapp3.1\HB.Ecommerce.Domain.pdb
